@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.web.context.annotation.RequestScope;
 
 @Configuration
-@Profile("dev")
+@Profile("local")
 public class ClockRequestGenerator {
 
 	@Bean
